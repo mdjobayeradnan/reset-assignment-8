@@ -14,6 +14,8 @@ import ErrorPage from './components/ErrorPage/ErrorPage';
 import Home from './components/Home/Home';
 import BookDetailsPage from './components/BookDetailsPage/BookDetailsPage';
 import ListedBooks from './components/ListedBooks/ListedBooks';
+import Inspiring from './components/Inspiring/Inspiring ';
+import Review from './components/Review/Review';
 
 
 
@@ -37,6 +39,14 @@ const router = createBrowserRouter([
         path:'/listedBooks',
         element:<ListedBooks></ListedBooks>,
         loader:() => fetch('/public/BooksDAta.json')
+      },
+      {
+        path:'inspiring',
+        element:<Inspiring></Inspiring>
+      },
+      {
+        path:'/review',
+        element:<Review></Review>
       }
      
     ]

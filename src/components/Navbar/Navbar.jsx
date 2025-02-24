@@ -6,8 +6,8 @@ const Navbar = () => {
     <NavLink className="px-2"><li>Home</li></NavLink>
     <NavLink to='listedBooks' className="px-2"><li>Listed Books</li></NavLink>
     <NavLink className="px-2"><li>Pages to Read</li></NavLink>
-    <NavLink className="px-2"><li>Pages to Read</li></NavLink>
-    <NavLink className="px-2"><li>Pages to Read</li></NavLink>
+    <NavLink  to ="/inspiring" className="px-2"><li>inspiring to Read</li></NavLink>
+    <NavLink  to="/review" className="px-2"><li>review</li></NavLink>
 
 
 
