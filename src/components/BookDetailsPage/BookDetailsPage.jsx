@@ -1,5 +1,5 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import { addToStoredInfo, addToWishlist } from "../../JsFile/local";
+import { addToStoredInfo, addToWishlist } from "../../JS/ADDToLocal";
 
 const BookDetailsPage = () => {
     const {bookId} = useParams();
@@ -53,5 +53,6 @@ const handleAddToWishlist = (bookId) => {
     </div>
     );
 };
+
 
 export default BookDetailsPage;
