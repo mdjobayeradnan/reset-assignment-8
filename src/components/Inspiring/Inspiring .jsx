@@ -23,7 +23,7 @@ const Inspiring  = () => {
         </p>
         <p className="underline">9.Lose yourself in a book, and you may find yourself in the process.
         </p>
-        <p className="underline">10.The journey of a lifetime starts with the turning of a page.
+        <p className="underline">10. journey of a lifetime starts with the turning of a page.
         </p>  
         </div>
        </Link>
