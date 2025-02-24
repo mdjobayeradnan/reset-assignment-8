@@ -1,0 +1,81 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "The Silent Echo",
+      "author": "Emma Thompson",
+      "image": "https://m.media-amazon.com/images/I/41yf2joE2+L._SY445_SX342_.jpg",
+      "review": "An engaging mystery with unexpected twists. Couldn't put it down!",
+      "totalPages": 320,
+      "rating": 4.5,
+      "category": "Mystery",
+      "tags": ["Suspense", "Psychological"],
+      "publisher": "HarperCollins",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": 2,
+      "bookName": "Whispers of Time",
+      "author": "James Anderson",
+      "image": "https://m.media-amazon.com/images/I/81IfPGp8OyL._SY425_.jpg",
+      "review": "A beautifully woven tale of love and destiny.",
+      "totalPages": 280,
+      "rating": 4.7,
+      "category": "Romance",
+      "tags": ["Love", "Time Travel"],
+      "publisher": "Penguin Random House",
+      "yearOfPublishing": 2020
+    },
+    {
+      "bookId": 3,
+      "bookName": "Beyond the Stars",
+      "author": "Luna Garcia",
+      "image": "https://m.media-amazon.com/images/I/71zwgBWQz2L._AC_UF1000,1000_QL80_.jpg",
+      "review": "An epic space adventure with breathtaking imagination.",
+      "totalPages": 450,
+      "rating": 4.8,
+      "category": "Science Fiction",
+      "tags": ["Space", "Adventure"],
+      "publisher": "Orbit Books",
+      "yearOfPublishing": 2019
+    },
+    {
+      "bookId": 4,
+      "bookName": "Echoes of the Past",
+      "author": "Robert Stone",
+      "image": "https://m.media-amazon.com/images/I/51GEoIr9EdL._SY445_SX342_.jpg",
+      "review": "A haunting historical fiction that stays with you long after.",
+      "totalPages": 390,
+      "rating": 4.6,
+      "category": "Historical Fiction",
+      "tags": ["History", "Drama"],
+      "publisher": "Simon & Schuster",
+      "yearOfPublishing": 2017
+    },
+    {
+      "bookId": 5,
+      "bookName": "The Art of Deception",
+      "author": "Maya Patel",
+      "image": "https://m.media-amazon.com/images/I/510jZsN0FrL._SL500_.jpg",
+      "review": "An intricate thriller full of deception and intrigue.",
+      "totalPages": 310,
+      "rating": 4.4,
+      "category": "Thriller",
+      "tags": ["Crime", "Mystery"],
+      "publisher": "Bloomsbury",
+      "yearOfPublishing": 2021
+    },
+    {
+      "bookId": 6,
+      "bookName": "Whispers in the Wind",
+      "author": "Hiroshi Tanaka",
+      "image": "https://www.meenalpatelstudio.com/cdn/shop/articles/This-Long-Thread-Cover-Art-Design-Meenal-Patel-IMG_7091_Sq.jpg?v=1666125678",
+      "review": "A poetic journey of self-discovery and reflection.",
+      "totalPages": 250,
+      "rating": 4.3,
+      "category": "Poetry",
+      "tags": ["Philosophy", "Inspiration"],
+      "publisher": "Kodansha",
+      "yearOfPublishing": 2016
+    }
+  ]
+  
