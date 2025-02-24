@@ -1,5 +1,9 @@
+import { Link } from "react-router-dom";
+
 const BookCard = ({ bookCard }) => {
+    const {bookId,image,bookName,author,category,rating,tags} = bookCard
     return (
+      <Link to ={`books/${bookId}`}>
         <div className="card bg-base-100 h-[500px] w-82 shadow-md">
             <figure>
                 <img
@@ -27,7 +31,7 @@ const BookCard = ({ bookCard }) => {
                     ))}
                 </div>
             </div>
-        </div>
+        </div></Link>
     );
 };
 
