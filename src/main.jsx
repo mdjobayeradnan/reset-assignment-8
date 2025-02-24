@@ -9,8 +9,8 @@ import {
 } from "react-router-dom";
 import Root from './components/Root/Root';
 import ErrorPage from './components/ErrorPage/ErrorPage';
-import Banner from './components/Banner/Banner';
-import BooksSection from './components/BooksSection/BooksSection';
+
+import Home from './components/Home/Home';
 
 
 
@@ -22,12 +22,9 @@ const router = createBrowserRouter([
     children:[
       {
         path:"/",
-        element:<Banner></Banner>
+        element:<Home></Home>
       },
-      {
-        path:"/book",
-        element:<BooksSection></BooksSection>
-      }
+     
     ]
 
     
