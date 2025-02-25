@@ -16,6 +16,7 @@ import BookDetailsPage from './components/BookDetailsPage/BookDetailsPage';
 import ListedBooks from './components/ListedBooks/ListedBooks';
 import Inspiring from './components/Inspiring/Inspiring ';
 import Review from './components/Review/Review';
+import PagesToRead from './components/PageReadList/PageReadList';
 
 
 
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
         path:'/listedBooks',
         element:<ListedBooks></ListedBooks>,
         loader:() => fetch('/public/BooksDAta.json')
+      },
+      {
+        path:"/pages",
+        element:<PagesToRead></PagesToRead>
       },
       {
         path:'inspiring',
