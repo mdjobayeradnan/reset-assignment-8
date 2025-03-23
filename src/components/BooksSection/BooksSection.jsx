@@ -10,7 +10,7 @@ const BooksSection = () => {
 
      useEffect(() =>{
 
-        fetch('/public/BooksDAta.json')
+        fetch('/public/BooksDATa.json')
         .then(res => res.json())
         .then(data => setBooks(data))
 
